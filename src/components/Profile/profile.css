@@ -1,0 +1,34 @@
+.MuiExpansionPanelDetails-root {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.mainText {
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 1.8em;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex50-50 {
+    flex: 50%;
+}
+
+.underline {
+    text-decoration: underline;
+    margin-bottom: 1em;
+}
+
+@media screen and (max-width: 450px) {
+    .flex {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .flex50-50 {
+        flex: 0;
+    }
+}
